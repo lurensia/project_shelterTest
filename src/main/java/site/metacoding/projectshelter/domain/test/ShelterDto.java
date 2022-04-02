@@ -19,13 +19,14 @@ public class ShelterDto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    // private String dataStdDt;
-    // private String dsignationDate;
-    // private String lat;
-    // private String lng;
-    // private Integer rnum;
-    // private Integer specsPersonCnt;
-    // private Integer vetPersonCnt;
+    private String dataStdDt;
+    private String dsignationDate;
+    private String lat;
+    private String lng;
+    private Integer rnum;
+    private Integer specsPersonCnt;
+    private Integer vetPersonCnt;
+
     private String careNm; // 동물보호센터명 1
     private String orgNm; // 관리기관명 2
     private String divisionNm; // 동물보호센터유형 3

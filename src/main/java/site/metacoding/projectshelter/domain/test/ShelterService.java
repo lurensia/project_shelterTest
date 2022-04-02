@@ -66,15 +66,13 @@ public class ShelterService {
 
             for (int i = 0; i < result.size(); i++) { // result 사이즈
                 ShelterDto items = new ShelterDto(i,
-                        // 사용안함 시작
-                        // result.get(i).getDataStdDt(),
-                        // result.get(i).getDsignationDate(),
-                        // result.get(i).getLng(),
-                        // result.get(i).getLat(),
-                        // result.get(i).getRnum(),
-                        // result.get(i).getSpecsPersonCnt(),
-                        // result.get(i).getVetPersonCnt(),
-                        // 사용안함끝
+                        result.get(i).getDataStdDt(),
+                        result.get(i).getDsignationDate(),
+                        result.get(i).getLat(),
+                        result.get(i).getLng(),
+                        result.get(i).getRnum(),
+                        result.get(i).getSpecsPersonCnt(),
+                        result.get(i).getVetPersonCnt(),
                         // 사용함
                         result.get(i).getCareNm(),
                         result.get(i).getOrgNm(),

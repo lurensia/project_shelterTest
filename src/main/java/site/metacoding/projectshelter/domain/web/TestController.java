@@ -14,9 +14,9 @@ import site.metacoding.projectshelter.domain.test.ShelterService;
 @Controller
 public class TestController {
 
-    private ShelterService service;
+    private final ShelterService service;
 
-    @GetMapping("/s")
+    @GetMapping("/")
     public String Download(ShelterDto shelterDto, Model model) {
 
         List<ShelterDto> shelterEntity = service.download(shelterDto);

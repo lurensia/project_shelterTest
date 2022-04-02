@@ -61,11 +61,11 @@ result.get(i).getcareTel()
 
 사용안하지만 필요한 부분?
 
-result.get(i).getdataStdDt(),
-result.get(i).getdsignationDate(),
-result.get(i).getlat(),
-result.get(i).getrnum(),
-result.get(i).getspecsPersonCnt(),
-result.get(i).getvetPersonCnt(),
-result.get(i).get(),
-result.get(i).get(),
+    result.get(i).getDataStdDt(),
+    result.get(i).getDsignationDate(),
+    result.get(i).getLat(),
+    result.get(i).getLng(),
+    result.get(i).getRnum(),
+    result.get(i).getSpecsPersonCnt(),
+    result.get(i).getVetPersonCnt(),
+    result.get(i).get(),
