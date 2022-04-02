@@ -1,0 +1,71 @@
+htt}} openapi.animal.go.kr/openapi/service/rest/animalShelterSrvc/ :
+shelterInfo?&ServiceKey=jDqHGG%2BaNG47ijh6s3XzB%2BuF8fJOeovccnw%2FZtc9wLQUaKJumPo%2Frl1a2ygZ68dv9L0PD7drvpjPAeTnnB9f%2FQ%3D%3D
+&_type=json
+
+
+
+jDqHGG%2BaNG47ijh6s3XzB%2BuF8fJOeovccnw%2FZtc9wLQUaKJumPo%2Frl1a2ygZ68dv9L0PD7drvpjPAeTnnB9f%2FQ%3D%3D&_type=json
+
+
+htt}} openapi.animal.go.kr/openapi/service/rest/animalShelterSrvc/ :
+}}shelterInfo?&ServiceKey= :
+}}jDqHGG%2BaNG47ijh6s3XzB%2BuF8fJOeovccnw%2FZtc9wLQUaKJumPo%2Frl1a2ygZ68dv9L0PD7drvpjPAeTnnB9f%2FQ%3D%3D& :
+}}numOfRows=10& :
+}}pageNo=1& :
+}}_type=json :
+
+}} :
+result.get(i).getcareNm(),
+result.get(i).getorgNm(),
+result.get(i).getdivisionNm(),
+result.get(i).getsaveTrgtAnimal(),
+result.get(i).getcareAddr(),
+result.get(i).getjibunAddr(),
+result.get(i).getweekOprStime(),
+result.get(i).getweekOprEtime(),
+result.get(i).getweekCellStime(),
+result.get(i).getweekCellEtime(),
+result.get(i).getweekendCellStime(),
+result.get(i).getweekendCellEtime(),
+result.get(i).getweekendOprStime(),
+result.get(i).getweekendOprEtime(),
+result.get(i).getcloseDay(),
+result.get(i).getcareTel()
+
+동물보호센터명 : {{careNm}}
+관리기관명 : {{orgNm}}
+동물보호센터유형 : {{divisionNm}}
+구조대상동물 : {{saveTrgtAnimal}}
+소재지 도로명 주소 : {{careAddr}}
+소재지 지번 주소 : {{jibunAddr}}
+평일운영시작시각 : {{weekOprStime}}
+평일운영종료시각 : {{weekOprEtime}}
+평일분양시작시각 : {{weekCellStime}}
+평일분양종료시각 : {{weekCellEtime}}
+주말운영시작시각 : {{weekendCellStime}}
+주말운영종료시각 : {{weekendCellEtime}}
+주말분양시작시각 : {{weekendOprStime}}
+주말분양종료시각 : {{weekendOprEtime}}
+휴무일 : {{closeDay}} 
+전화번호 :{{careTel}}
+
+
+사용안하지만 필요한부분?
+ private String dataStdDt;
+    private String dsignationDate;
+    private String lat;
+    private String lng;
+    private Integer rnum;
+    private Integer specsPersonCnt;
+    private Integer vetPersonCnt;
+
+사용안하지만 필요한 부분?
+
+result.get(i).getdataStdDt(),
+result.get(i).getdsignationDate(),
+result.get(i).getlat(),
+result.get(i).getrnum(),
+result.get(i).getspecsPersonCnt(),
+result.get(i).getvetPersonCnt(),
+result.get(i).get(),
+result.get(i).get(),
